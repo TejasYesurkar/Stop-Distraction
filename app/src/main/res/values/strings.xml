@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Stop Distraction</string>
+    <string name="company_name"><![CDATA[<font color=\'#color\'><u>DASHTEK</u></font> <font color=\'#0000\'>ENGINEERS</font>]]></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="last_time_used">"Last time used: "</string>
+    <string name="time_span">"Time span: "</string>
+
+    <string name="display_order_text">Sort by:</string>
+    <string name="app_name_label">App</string>
+    <string name="last_time_used_label">Last time used</string>
+    <!-- label for usage time -->
+    <string name="usage_time_label">Usage time</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

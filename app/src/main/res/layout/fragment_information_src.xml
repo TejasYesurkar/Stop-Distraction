@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+>
+
+   <Button
+       android:id="@+id/btnZeeNews"
+       android:text="Zee News"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       />
+   <Button
+       android:id="@+id/btntimesofIndia"
+       android:text="Times Of India"
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       />
+
+    <Button
+        android:id="@+id/btnhindutasntimes"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Hindustan Time" />
+
+</LinearLayout>

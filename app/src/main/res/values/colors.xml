@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorRed">#ED3439</color>
+    <color name="bg_dashboard_main">#F3F3F3</color>
+
+    <color name="orange">#efae00</color>
+    <color name="gray_color">#808080</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="color_accent">#7C0000</color>
+    <color name="color_white">#ffff</color>
+    <color name="color_black">#2F2F2F</color>
+    <color name="color_orange_color">#FF5733</color>
+
+
+    <color name="color_orange">#FDBE01</color>
+
+    <color name="color_blue">#046ccc</color>
+    <color name="green">#00A300</color>
+    <color name="gray">#EFEFF1</color>
+    <color name="gray0">#EFEFF1</color>
+    <color name="gray1">#dddddd</color>
+    <color name="gray2">#d2d1d1</color>
+    <color name="gray3">#A8A8A8</color>
+    <color name="gray4">#868686</color>
+    <color name="gray5">#636262</color>
+    <color name="buble_msg">#E6E6E6</color>
+
+    <color name="switchColor">#DC2529</color>
+
+    <color name="offwhite">#f5f5f5</color>
+    <color name="oragne">#DC2529</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="red">#ff0000</color>
+    <color name="color_yellow">#F7CA41</color>
+    <color name="color_green">#44AC48</color>
+    <color name="transparent_dim">#33000000</color>
+    <color name="black_lite">#80000000</color>
+
+    <!--colors for light mode-->
+
+    <color name="tabselectedcolor">#A8A8A8</color>
+    <color name="tabunselectedcolor">#A8A8A8</color>
+    <color name="headercolor">#A8A8A8</color>
+
+    <color name="hintcolor">#A8A8A8</color>
+
+    <color name="contentBodyColor">#ffffff</color>
+    <color name="card_color">#fff</color>
+    <color name="seearchBarcolor">#ededed</color>
+    <color name="contentTextColor">#000000</color>
+
+    <color name="badgetextcolor">#EFEFF1</color>
+
+    <color name="linecolor">#EFEFF1</color>
+    <color name="boxcolor">#000000</color>
+
+    <color name="contentToolbarColor">#F7F7F7</color>
+    <color name="badgebackground">#000</color>
+    <color name="bottomNavigationBackground">#F7F7F7</color>
+
+    <color name="daynight_textColor">#000000</color>
+
+    <color name="designbar">#EFEFF1</color>
+
+    <color name="delete_message_text">#b8b8b8</color>
+
+    <color name="delete_message_bg">#f2f2f2</color>
+
+    <color name="line">#000</color>
+    <color name="pure_black">#000000</color>
+
+    <color name="colorTextDarkYellow">#B16E02</color>
+    <color name="colorTextDarkRed">#D10204</color>
+    <color name="colorTextDarkGreen">#79C006</color>
+    <color name="colorBlueButton">#076BB9</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDarkText">#545252</color>
+    <color name="colorLightText">#525151</color>
+    <color name="colorGray">#808080</color>
+    <color name="colorLightGrayBorder">#f1f1f1</color>
+    <color name="colorLightRedBorder">#E35E5E</color>
+    <color name="colorLightGrayE9E9E9">#E9E9E9</color>
+    <color name="colorDarkGray">#838383</color>
+    <color name="colorDarkRed">#A90000</color>
+
+    <color name="colorBorderRed">#A90000</color>
+    <color name="colorRowBackground">#F1F1F1</color>
+    <color name="textColorHint">#666666</color>
+    <color name="textColor">#383838</color>
+    <color name="colorYellow">#F1B22B</color>
+    <color name="backgroundrow">#f6f6f6</color>
+    <color name="textcolor">#ec1029</color>
+    <color name="colorSeparator">#d3d3d3</color>
+    <color name="green_light">#68cb6b</color>
+    <color name="scrim">#42000000</color>
+</resources>
