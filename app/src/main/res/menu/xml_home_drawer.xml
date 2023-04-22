@@ -19,16 +19,16 @@
         android:id="@+id/grp3"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_grn"
+            android:id="@+id/nav_pomodoro"
             android:title="Pomodoro" />
     </group>
-    <group
-        android:id="@+id/grp5"
-        android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_history"
-            android:title="Reminder" />
-    </group>
+<!--    <group-->
+<!--        android:id="@+id/grp5"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_history"-->
+<!--            android:title="Reminder" />-->
+<!--    </group>-->
     <group
         android:id="@+id/grp4"
         android:checkableBehavior="single">
@@ -36,13 +36,13 @@
             android:id="@+id/nav_info_src"
             android:title="Information source" />
     </group>
-    <group
-        android:id="@+id/grp6"
-        android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_distraction"
-            android:title="Distraction Time" />
-    </group>
+<!--    <group-->
+<!--        android:id="@+id/grp6"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_distraction"-->
+<!--            android:title="Distraction Time" />-->
+<!--    </group>-->
     <group
         android:id="@+id/grp7"
         android:checkableBehavior="single">
@@ -50,18 +50,34 @@
             android:id="@+id/nav_todo"
             android:title="Todo Task" />
     </group>
+<!--    <group-->
+<!--        android:id="@+id/grp8"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_dailyTask"-->
+<!--            android:title="Daily Task" />-->
+<!--    </group>-->
+
     <group
-        android:id="@+id/grp8"
+        android:visible="true"
+        android:id="@+id/grp10"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_dailyTask"
-            android:title="Daily Task" />
+            android:id="@+id/nav_Schedule"
+            android:title="Schedule Message" />
     </group>
+<!--    <group-->
+<!--        android:id="@+id/grp9"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:id="@+id/nav_track_timeWork"-->
+<!--            android:title="Track Time" />-->
+<!--    </group>-->
     <group
-        android:id="@+id/grp9"
+        android:id="@+id/grp11"
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_track_timeWork"
-            android:title="Track Time" />
+            android:id="@+id/nav_transaction"
+            android:title="Transaction History" />
     </group>
 </menu>

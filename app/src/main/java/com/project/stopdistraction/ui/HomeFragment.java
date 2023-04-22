@@ -12,6 +12,8 @@ import android.net.Uri;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -35,6 +37,7 @@ import android.widget.Toast;
 import com.project.stopdistraction.R;
 import com.project.stopdistraction.adapter.AppsAdapter;
 import com.project.stopdistraction.common.ApkInfoExtractor;
+import com.project.stopdistraction.common.SaveMyAppsService;
 
 import java.text.DateFormat;
 import java.util.ArrayList;
@@ -129,6 +132,8 @@ public class HomeFragment extends Fragment implements AdapterView.OnItemSelected
 
         Spinner typeSpinner = (Spinner) view.findViewById(R.id.typeSpinner);
         typeSpinner.setOnItemSelectedListener(this);
+
+
 
         ListView listView = (ListView) view.findViewById(R.id.pkg_list);
         mAdapter = new UsageStatsAdapter();
@@ -358,5 +363,4 @@ public class HomeFragment extends Fragment implements AdapterView.OnItemSelected
             notifyDataSetChanged();
         }
     }
-
 }

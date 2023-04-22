@@ -28,7 +28,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:gravity="center_vertical"
-        android:text="DashTek Engineers"
+        android:text="Stop Distraction"
         android:textColor="@color/orange"
         android:textSize="20dp"
         android:textStyle="bold" />
@@ -43,7 +43,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="20dp"
         android:gravity="center_vertical"
-        android:text="DashTek Engineers"
+        android:text="Control your wasting time"
         android:textColor="@color/black"
         android:textSize="15dp"
         android:textStyle="bold" />

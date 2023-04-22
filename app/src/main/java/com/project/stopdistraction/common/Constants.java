@@ -6,11 +6,15 @@ package com.project.stopdistraction.common;
 public interface Constants {
 
     String TAG_FRAGMENT_HOME ="FormsLinkListFragment";
+    String TAG_FRAGMENT_PASSCODE ="PasscodeFragment";
     String TAG_FRAGMENT_INFO_SRC ="InformationSrcFragment";
     String TAG_FRAGMENT_WEBVIEW="WebViewFragment";
-    String TAG_FRAGMENT_UPLOAD_INVOICE="UploadInvoiceFragment";
-    String TAG_FRAGMENT_List_OF_PART="ListOfProductFragment";
-    String TAG_FRAGMENT_PART_DETAILS="PartsDetailsFragment";
-    String TAG_FRAGMENT_GRN_HISTORY="GRNHistoryFragment";
-    String TAG_FRAGMENT_ASSEMBLY_PROCESS="Assembly_process_Fragment";
+    String TAG_FRAGMENT_POMODORO="pomodoroFragment";
+    String TAG_FRAGMENT_DAILY_TASK ="DailyTaskFragment";
+    String TAG_FRAGMENT_ADD_DAILYTASK="AddNewDailyTaskFragment";
+    String TAG_FRAGMENT_TODO_TASK="TodoTaskFragment";
+    String TAG_FRAGMENT_ADD_TODOTASK="AddNewTodoTaskFragment";
+    String TAG_FRAGMENT_Schedule="ScheduleMesageFragment";
+    String TAG_FRAGMENT_IN_OUT="InOutTimeFragment";
+    String TAG_FRAGMENT_TRANC_DETAILS="TransantionDetailsFragment";
 }

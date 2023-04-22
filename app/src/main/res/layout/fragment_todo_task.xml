@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/titleId"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TODO Task List" />
+
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/edadd"
+        android:layout_below="@+id/titleId"
+        android:hint="Add Task.."
+        android:drawableLeft="@drawable/ic_baseline_add_24"
+        android:layout_marginLeft="20dp"
+        android:onClick="onClick"
+        android:focusable="false"
+        android:clickable="true"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleProduct"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:itemCount="2"
+        android:layout_below="@+id/edadd"
+        tools:listitem="@layout/item_category"
+        />
+
+</RelativeLayout>

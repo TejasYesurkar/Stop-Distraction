@@ -9,7 +9,7 @@
 
     <!--WebView is added on full screen so
         that application interface can be
-        interactive and user can the web content
+        interactive and dailyTask can the web content
         is visible on full screen -->
     <WebView
         android:id="@+id/web_view_zee"
